@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Solicitar Acesso | Fork Capital</title>
+<meta name="description" content="Solicite uma análise de perfil para entender se a gestão da Fork Capital faz sentido para o seu patrimônio digital.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="visually-hidden" href="#main">Pular para o conteúdo</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="index.html" class="logo" aria-label="Fork Capital — página inicial">
+      <span class="logo-fork">FORK</span><span class="logo-capital">CAPITAL</span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+      <a href="como-funciona.html">Como funciona</a>
+      <a href="estrategias.html">Estratégias</a>
+      <a href="gestao-de-risco.html">Gestão de risco</a>
+      <a href="research.html">Research</a>
+      <a href="seguranca.html">Segurança</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      <a href="solicitar-acesso.html" class="btn btn-primary btn-sm">Solicitar acesso</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="small-caps">Solicitar acesso</p>
+      <h1 class="display-quiet h-lg mt-2">O primeiro passo é entender se faz sentido para o seu perfil.</h1>
+      <p class="lede mt-3">Solicitar acesso não é um compromisso de investimento. É o início de uma conversa para entender objetivo, horizonte e tolerância a risco antes de qualquer conexão técnica.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="split">
+        <div class="form-panel">
+          <form name="qualificacao" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/obrigado.html">
+            <input type="hidden" name="form-name" value="qualificacao" />
+            <p class="visually-hidden">
+              <label>Não preencha este campo: <input name="bot-field" /></label>
+            </p>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="whatsapp">WhatsApp</label>
+                <input type="tel" id="whatsapp" name="whatsapp" placeholder="+55 (DDD) 00000-0000" required>
+              </div>
+              <div class="form-group">
+                <label for="pais">País</label>
+                <input type="text" id="pais" name="pais" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="exchange">Exchange utilizada atualmente</label>
+              <input type="text" id="exchange" name="exchange" placeholder="Ex.: nome da exchange onde seus ativos estão hoje">
+            </div>
+
+            <div class="form-group">
+              <label for="experiencia">Experiência com ativos digitais</label>
+              <select id="experiencia" name="experiencia" required>
+                <option value="">Selecione</option>
+                <option value="Iniciante">Iniciante</option>
+                <option value="Intermediaria">Intermediária</option>
+                <option value="Avancada">Avançada</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="patrimonio">Patrimônio destinado a investimentos em ativos digitais</label>
+              <select id="patrimonio" name="patrimonio" required>
+                <option value="">Selecione uma faixa</option>
+                <option value="Ate 100 mil">Até R$ 100 mil</option>
+                <option value="100 a 500 mil">R$ 100 mil a R$ 500 mil</option>
+                <option value="500 mil a 1 milhao">R$ 500 mil a R$ 1 milhão</option>
+                <option value="1 a 5 milhoes">R$ 1 milhão a R$ 5 milhões</option>
+                <option value="Acima de 5 milhoes">Acima de R$ 5 milhões</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Objetivo principal</label>
+              <div class="option-group" role="radiogroup" aria-label="Objetivo principal">
+                <label class="option-pill"><input type="radio" name="objetivo" value="Crescimento" required><span>Crescimento</span></label>
+                <label class="option-pill"><input type="radio" name="objetivo" value="Preservacao"><span>Preservação</span></label>
+                <label class="option-pill"><input type="radio" name="objetivo" value="Equilibrio"><span>Equilíbrio</span></label>
+                <label class="option-pill"><input type="radio" name="objetivo" value="Diversificacao"><span>Diversificação</span></label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Tolerância a volatilidade</label>
+              <div class="option-group" role="radiogroup" aria-label="Tolerância a volatilidade">
+                <label class="option-pill"><input type="radio" name="tolerancia" value="Baixa" required><span>Baixa</span></label>
+                <label class="option-pill"><input type="radio" name="tolerancia" value="Moderada"><span>Moderada</span></label>
+                <label class="option-pill"><input type="radio" name="tolerancia" value="Alta"><span>Alta</span></label>
+              </div>
+            </div>
+
+            <div class="consent-row">
+              <input type="checkbox" id="consentimento" name="consentimento" value="Sim" required>
+              <label for="consentimento">Entendo que ativos digitais possuem riscos e que resultados passados não garantem resultados futuros.</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Solicitar análise</button>
+          </form>
+        </div>
+
+        <div>
+          <p class="small-caps mb-2">O que acontece depois</p>
+          <h2 class="h-sm display-quiet mb-3">Nossa equipe entra em contato para entender seu perfil e apresentar a estrutura em detalhe.</h2>
+          <ul class="stack text-body">
+            <li>— Nenhuma conexão técnica é feita nesta etapa.</li>
+            <li>— Você conhece a arquitetura completa antes de decidir qualquer coisa.</li>
+            <li>— Taxas, condições comerciais e elegibilidade são apresentadas de forma individual.</li>
+            <li>— Não há compromisso de investimento ao enviar este formulário.</li>
+          </ul>
+          <hr class="hairline">
+          <p class="small-caps mb-2">Prefere falar diretamente?</p>
+          <p class="text-body"><a href="mailto:contato@forkcapital.com" class="link-inline">contato@forkcapital.com</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><span class="logo-fork">FORK</span><span class="logo-capital">CAPITAL</span></a>
+      <p>Infraestrutura de gestão de ativos digitais. Sua custódia, nossa estratégia.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="como-funciona.html">Como funciona</a></li>
+        <li><a href="estrategias.html">Estratégias</a></li>
+        <li><a href="gestao-de-risco.html">Gestão de risco</a></li>
+        <li><a href="research.html">Research</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Institucional</h4>
+      <ul>
+        <li><a href="sobre.html">Sobre a Fork</a></li>
+        <li><a href="seguranca.html">Segurança</a></li>
+        <li><a href="faq.html">Perguntas frequentes</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="legal.html#termos">Termos de uso</a></li>
+        <li><a href="legal.html#privacidade">Política de privacidade</a></li>
+        <li><a href="legal.html#risco">Política de risco</a></li>
+        <li><a href="legal.html#avisos">Avisos legais</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="mailto:contato@forkcapital.com">contato@forkcapital.com</a></li>
+        <li><a href="solicitar-acesso.html">Solicitar acesso</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-risk container">
+    <p><strong>Aviso de risco.</strong> Ativos digitais apresentam alta volatilidade e podem resultar em perda parcial ou total do capital investido. A gestão profissional não elimina risco, não garante retorno, e resultados passados não garantem resultados futuros. A estrutura, a oferta, a elegibilidade e o enquadramento regulatório devem ser analisados conforme a jurisdição aplicável ao investidor.</p>
+  </div>
+  <div class="footer-bottom container">
+    <p>© <span class="js-year"></span> Fork Capital. Todos os direitos reservados.</p>
+    <p>Gestão sem custódia.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

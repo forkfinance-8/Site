@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fork Capital | Gestão Profissional de Ativos Digitais sem Custódia</title>
+<meta name="description" content="Gestão profissional de ativos digitais diretamente na sua conta. Estratégia adaptativa, gestão de risco e preservação de capital sem entregar a custódia do patrimônio.">
+<meta property="og:title" content="Fork Capital | Gestão Profissional de Ativos Digitais sem Custódia">
+<meta property="og:description" content="Sua custódia. Nossa estratégia. Gestão de ativos digitais diretamente na sua conta, sem entregar a custódia do patrimônio.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="visually-hidden" href="#main">Pular para o conteúdo</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="index.html" class="logo" aria-label="Fork Capital — página inicial">
+      <span class="logo-fork">FORK</span><span class="logo-capital">CAPITAL</span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+      <a href="como-funciona.html">Como funciona</a>
+      <a href="estrategias.html">Estratégias</a>
+      <a href="gestao-de-risco.html">Gestão de risco</a>
+      <a href="research.html">Research</a>
+      <a href="seguranca.html">Segurança</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="faq.html">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      <a href="solicitar-acesso.html" class="btn btn-primary btn-sm">Solicitar acesso</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <svg class="hero-grid" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <line class="edge" x1="80" y1="120" x2="220" y2="60"/>
+      <line class="edge" x1="220" y1="60" x2="360" y2="180"/>
+      <line class="edge" x1="360" y1="180" x2="500" y2="90"/>
+      <line class="edge" x1="500" y1="90" x2="640" y2="200"/>
+      <line class="edge" x1="640" y1="200" x2="780" y2="110"/>
+      <line class="edge" x1="780" y1="110" x2="900" y2="190"/>
+      <line class="edge" x1="80" y1="120" x2="150" y2="300"/>
+      <line class="edge" x1="220" y1="60" x2="320" y2="340"/>
+      <line class="edge" x1="360" y1="180" x2="470" y2="280"/>
+      <line class="edge" x1="500" y1="90" x2="620" y2="360"/>
+      <line class="edge" x1="640" y1="200" x2="760" y2="300"/>
+      <line class="edge" x1="780" y1="110" x2="880" y2="380"/>
+      <line class="edge" x1="150" y1="300" x2="320" y2="340"/>
+      <line class="edge" x1="320" y1="340" x2="470" y2="280"/>
+      <line class="edge" x1="470" y1="280" x2="620" y2="360"/>
+      <line class="edge" x1="620" y1="360" x2="760" y2="300"/>
+      <line class="edge" x1="760" y1="300" x2="880" y2="380"/>
+      <line class="edge" x1="150" y1="300" x2="100" y2="480"/>
+      <line class="edge" x1="320" y1="340" x2="300" y2="500"/>
+      <line class="edge" x1="470" y1="280" x2="480" y2="460"/>
+      <line class="edge" x1="620" y1="360" x2="650" y2="520"/>
+      <line class="edge" x1="760" y1="300" x2="820" y2="470"/>
+      <line class="edge" x1="880" y1="380" x2="950" y2="500"/>
+      <line class="edge" x1="100" y1="480" x2="300" y2="500"/>
+      <line class="edge" x1="300" y1="500" x2="480" y2="460"/>
+      <line class="edge" x1="480" y1="460" x2="650" y2="520"/>
+      <line class="edge" x1="650" y1="520" x2="820" y2="470"/>
+      <line class="edge" x1="820" y1="470" x2="950" y2="500"/>
+      <line class="edge-signal" x1="100" y1="480" x2="320" y2="340"/>
+      <line class="edge-signal" x1="320" y1="340" x2="500" y2="90"/>
+      <line class="edge-signal" x1="500" y1="90" x2="780" y2="110"/>
+      <circle class="node" cx="80" cy="120" r="3"/>
+      <circle class="node" cx="220" cy="60" r="3"/>
+      <circle class="node" cx="360" cy="180" r="3"/>
+      <circle class="node" cx="640" cy="200" r="3"/>
+      <circle class="node" cx="900" cy="190" r="3"/>
+      <circle class="node" cx="150" cy="300" r="3"/>
+      <circle class="node" cx="470" cy="280" r="3"/>
+      <circle class="node" cx="620" cy="360" r="3"/>
+      <circle class="node" cx="760" cy="300" r="3"/>
+      <circle class="node" cx="880" cy="380" r="3"/>
+      <circle class="node" cx="300" cy="500" r="3"/>
+      <circle class="node" cx="480" cy="460" r="3"/>
+      <circle class="node" cx="650" cy="520" r="3"/>
+      <circle class="node" cx="820" cy="470" r="3"/>
+      <circle class="node" cx="950" cy="500" r="3"/>
+      <circle class="node-signal" cx="100" cy="480" r="4"/>
+      <circle class="node-signal" cx="320" cy="340" r="4"/>
+      <circle class="node-signal" cx="500" cy="90" r="4"/>
+      <circle class="node-signal" cx="780" cy="110" r="4"/>
+    </svg>
+    <div class="container hero-inner">
+      <p class="hero-kicker hero-anim-1">Gestão de ativos digitais</p>
+      <h1 class="hero-title display-shout h-xl hero-anim-2">Sua custódia.<br>Nossa estratégia.</h1>
+      <p class="lede hero-sub hero-anim-3">Gestão profissional de ativos digitais diretamente na sua conta — com estratégia adaptativa, gestão de risco e preservação de capital. Sem que você entregue a custódia do seu patrimônio.</p>
+      <div class="hero-ctas hero-anim-4">
+        <a href="solicitar-acesso.html" class="btn btn-primary">Solicitar acesso</a>
+        <a href="como-funciona.html" class="btn btn-outline-light">Como funciona</a>
+      </div>
+      <p class="hero-micro hero-anim-4">Gestão sem custódia.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Você não precisa entregar seu capital para ter gestão profissional.</h2>
+        <p class="lede mt-3">A Fork Capital conecta estratégia profissional à conta onde o seu patrimônio já está. Você mantém a custódia. Nós assumimos a responsabilidade pela estratégia.</p>
+      </div>
+      <div class="pillars">
+        <div class="pillar">
+          <svg class="pillar-mark" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="6" y="13" width="22" height="16"/><circle cx="17" cy="21" r="3"/><path d="M11 13v-3a6 6 0 0 1 12 0v3"/></svg>
+          <h3 class="display-quiet">Custódia</h3>
+          <p class="text-body">Seu patrimônio permanece na sua conta, na exchange que você escolhe.</p>
+        </div>
+        <div class="pillar">
+          <svg class="pillar-mark" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 27 L13 16 L19 21 L29 6"/><circle cx="29" cy="6" r="2" fill="currentColor" stroke="none"/></svg>
+          <h3 class="display-quiet">Estratégia</h3>
+          <p class="text-body">A Fork gerencia a exposição de acordo com o regime de mercado.</p>
+        </div>
+        <div class="pillar">
+          <svg class="pillar-mark" viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M17 3.5 L29.5 9 v8.5c0 8 -6.2 11 -12.5 13 C10.7 28.5 4.5 25.5 4.5 17.5 V9 Z"/></svg>
+          <h3 class="display-quiet">Risco</h3>
+          <p class="text-body">O objetivo é controlar as perdas antes de buscar o próximo movimento.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-bone">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Por que a gestão profissional costuma exigir milhões?</h2>
+        <p class="lede mt-3">O sistema tradicional de gestão profissional em ativos digitais costuma colocar diversas barreiras entre o investidor e a estratégia: capital mínimo elevado, exigência de investidor qualificado, estruturas jurídicas complexas, administrador, custodiante, lock-ups e janelas de resgate.</p>
+      </div>
+      <div class="grid grid-2">
+        <div>
+          <p class="small-caps mb-2">Barreiras comuns</p>
+          <ul class="stack text-body">
+            <li>— Capital mínimo elevado</li>
+            <li>— Investidor credenciado ou qualificado</li>
+            <li>— Estruturas jurídicas complexas</li>
+            <li>— Administrador e custodiante</li>
+            <li>— Lock-ups e janelas de resgate</li>
+            <li>— Distância entre o investidor e os próprios ativos</li>
+          </ul>
+        </div>
+        <div>
+          <p class="small-caps mb-2">Capital mínimo em fundos de cripto — referência de mercado</p>
+          <div class="bar-list">
+            <div class="bar-row"><span class="bar-name">Pantera</span><div class="bar-track"><div class="bar-fill" style="width:29%"></div></div><span class="bar-value">US$ 250 mil</span></div>
+            <div class="bar-row"><span class="bar-name">Galaxy</span><div class="bar-track"><div class="bar-fill" style="width:15%"></div></div><span class="bar-value">US$ 100 mil</span></div>
+            <div class="bar-row"><span class="bar-name">Cyber Capital</span><div class="bar-track"><div class="bar-fill" style="width:15%"></div></div><span class="bar-value">€ 100 mil</span></div>
+            <div class="bar-row"><span class="bar-name">XBTO</span><div class="bar-track"><div class="bar-fill" style="width:15%"></div></div><span class="bar-value">US$ 100 mil</span></div>
+            <div class="bar-row"><span class="bar-name">BitBull</span><div class="bar-track"><div class="bar-fill" style="width:15%"></div></div><span class="bar-value">US$ 100 mil</span></div>
+            <div class="bar-row"><span class="bar-name">Pantera Fund V</span><div class="bar-track"><div class="bar-fill" style="width:50%"></div></div><span class="bar-value">US$ 1 milhão</span></div>
+            <div class="bar-row"><span class="bar-name">Incrementum USD S</span><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div><span class="bar-value">até US$ 10 milhões</span></div>
+            <div class="bar-row is-fork"><span class="bar-name">Fork Capital</span><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><span class="bar-value">Sem mínimo elevado</span></div>
+          </div>
+          <p class="bar-caption">Escala aproximada, não linear. Valores de referência de materiais institucionais públicos dos respectivos gestores, sujeitos a alteração.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="statement-band section-dark">
+    <div class="container"><p class="statement">O problema não era falta de acesso ao mercado. Era a estrutura ao redor dele.</p></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">A infraestrutura mudou.</h2>
+        <p class="lede mt-3">A Fork separa a gestão da custódia. Você mantém o patrimônio; nós assumimos a responsabilidade pela estratégia e pelo processo de gestão.</p>
+      </div>
+      <div class="flow-compare">
+        <div class="flow-col">
+          <p class="small-caps flow-col-title">Modelo tradicional</p>
+          <ol class="flow-steps">
+            <li>Investidor</li>
+            <li>Qualificação</li>
+            <li>Capital mínimo elevado</li>
+            <li>Administrador</li>
+            <li>Custodiante</li>
+            <li>Fundo</li>
+            <li>Resgate conforme regras</li>
+          </ol>
+        </div>
+        <div class="flow-col flow-new">
+          <p class="small-caps flow-col-title tag-signal">Fork Capital</p>
+          <ol class="flow-steps">
+            <li>Investidor</li>
+            <li>Conecta sua exchange</li>
+            <li>Define objetivo e perfil de risco</li>
+            <li>Fork executa a estratégia via API</li>
+            <li>Os ativos continuam na conta do investidor</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">O que significa não custodial?</h2>
+        <p class="lede mt-3">A Fork Capital não precisa receber seus ativos para gerenciá-los. O patrimônio permanece na conta do próprio investidor. A integração ocorre por API, com permissões operacionais limitadas para a execução da estratégia autorizada.</p>
+      </div>
+      <div class="nc-diagram mt-5">
+        <div class="nc-block">
+          <h4 class="display-quiet">Exchange do investidor</h4>
+          <p class="text-body">Saldo e portfólio permanecem aqui, sob as credenciais do próprio investidor.</p>
+        </div>
+        <div class="nc-shield" aria-hidden="true">
+          <svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M17 3.5 L29.5 9 v8.5c0 8 -6.2 11 -12.5 13 C10.7 28.5 4.5 25.5 4.5 17.5 V9 Z"/></svg>
+          <span>API de execução autorizada</span>
+        </div>
+        <div class="nc-block nc-fork">
+          <h4 class="display-quiet">Fork Capital</h4>
+          <div class="nc-tags">
+            <span class="nc-tag">Estratégia</span><span class="nc-tag">Risco</span><span class="nc-tag">Alocação</span><span class="nc-tag">Execução</span>
+          </div>
+        </div>
+      </div>
+      <div class="check-list check-list-2col mt-5">
+        <div class="check-item"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5l3.5 3.5 7.5-9"/></svg><div><strong>Os ativos permanecem na conta do cliente</strong></div></div>
+        <div class="check-item"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5l3.5 3.5 7.5-9"/></svg><div><strong>O cliente mantém o controle da conta e das próprias credenciais</strong></div></div>
+        <div class="check-item"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5l3.5 3.5 7.5-9"/></svg><div><strong>O acesso pode ser revogado pelo investidor a qualquer momento</strong></div></div>
+        <div class="check-item"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5l3.5 3.5 7.5-9"/></svg><div><strong>A API é usada exclusivamente para executar a estratégia autorizada</strong></div></div>
+      </div>
+      <p class="statement mt-5">Capital no cofre. Fork comanda a estratégia.</p>
+    </div>
+  </section>
+
+  <section class="section section-bone">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Transparência começa no painel.</h2>
+        <p class="lede mt-3">O painel de gestão reúne capital sob gestão, exposição atual, regime de mercado, risco e histórico — ligado à sua própria conta. O que você vê abaixo é uma demonstração de interface: a Fork não publica número de performance hipotético ou projetado como se fosse resultado real.</p>
+      </div>
+      <div class="dashboard mt-4">
+        <div class="dashboard-head">
+          <span class="small-caps">Painel de gestão</span>
+          <span class="dashboard-badge">Demonstração</span>
+        </div>
+        <div class="dashboard-grid">
+          <div class="metric"><p class="metric-label">Capital sob gestão</p><p class="metric-value">00.00</p></div>
+          <div class="metric"><p class="metric-label">Exposição atual</p><p class="metric-value">—</p></div>
+          <div class="metric"><p class="metric-label">Regime de mercado</p><p class="metric-value">—</p></div>
+          <div class="metric"><p class="metric-label">Risk score</p><p class="metric-value">00.0</p></div>
+          <div class="metric"><p class="metric-label">Drawdown</p><p class="metric-value">00.00%</p></div>
+          <div class="metric"><p class="metric-label">Performance</p><p class="metric-value">00.00%</p></div>
+          <div class="metric"><p class="metric-label">Exposição BTC</p><p class="metric-value">00.00%</p></div>
+          <div class="metric"><p class="metric-label">Liquidez</p><p class="metric-value">00.00%</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">O mercado não é linear. A estratégia também não pode ser.</h2>
+        <p class="lede mt-3">Estruturas tradicionais de investimento em cripto costumam manter exposição a uma cesta relativamente fixa de ativos. Quando o mercado está em forte alta, muitos investidores entram justamente quando o risco já aumentou; quando o regime muda, uma carteira estruturalmente comprada pode continuar exposta à queda.</p>
+      </div>
+      <div class="regime-row">
+        <div class="regime-item">
+          <p class="small-caps mb-2">Bull market</p>
+          <h4 class="display-quiet">Maior oportunidade</h4>
+          <p class="text-body mt-2">Ativos líderes, maior exposição seletiva.</p>
+        </div>
+        <div class="regime-item">
+          <p class="small-caps mb-2">Transição</p>
+          <h4 class="display-quiet">Sinais contraditórios</h4>
+          <p class="text-body mt-2">Redução de risco, rotação, proteção de capital.</p>
+        </div>
+        <div class="regime-item">
+          <p class="small-caps mb-2">Bear market</p>
+          <h4 class="display-quiet">Prioridade: sobrevivência</h4>
+          <p class="text-body mt-2">Menor exposição, preservação, espera por assimetria.</p>
+        </div>
+        <div class="regime-item">
+          <p class="small-caps mb-2">Novo ciclo</p>
+          <h4 class="display-quiet">Reavaliação</h4>
+          <p class="text-body mt-2">Reconstrução de exposição, captura da próxima tendência.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="statement-band">
+    <div class="container"><p class="statement">Não é estar sempre investido. É estar posicionado para o regime certo.</p></div>
+  </section>
+
+  <section class="section section-bone">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Diferentes objetivos. Uma mesma disciplina.</h2>
+        <p class="lede mt-3">A Fork opera pelo menos duas famílias de gestão, cada uma desenhada para um perfil de tolerância a risco — sem abrir mão do mesmo processo de decisão.</p>
+      </div>
+      <div class="strategy-split split-bordered mt-4">
+        <div class="strategy-panel">
+          <p class="small-caps mb-2">Estratégia Opportunity</p>
+          <h3 class="h-sm display-quiet mb-3">Para quem aceita maior volatilidade em busca de maior assimetria.</h3>
+          <ul>
+            <li>Maior exposição a ativos líderes e oportunidades selecionadas</li>
+            <li>Rotação de ativos</li>
+            <li>Exposição adaptativa ao ciclo</li>
+            <li>Maior tolerância a risco</li>
+            <li>Foco em assimetria risco/retorno</li>
+          </ul>
+          <div class="meter"><div class="meter-label"><span>Risco</span><span>Alto</span></div><div class="meter-track"><div class="meter-fill" style="width:82%"></div></div></div>
+          <div class="meter"><div class="meter-label"><span>Retorno potencial</span><span>Alto</span></div><div class="meter-track"><div class="meter-fill" style="width:82%"></div></div></div>
+          <div class="meter"><div class="meter-label"><span>Rotação ativa</span><span>Alta</span></div><div class="meter-track"><div class="meter-fill" style="width:78%"></div></div></div>
+        </div>
+        <div class="strategy-panel is-dark">
+          <p class="small-caps mb-2">Estratégia Preservation</p>
+          <h3 class="h-sm display-quiet mb-3">Para quem prioriza preservação patrimonial e menor oscilação.</h3>
+          <ul>
+            <li>Maior controle de exposição</li>
+            <li>Redução de risco durante deterioração de regime</li>
+            <li>Prioridade para preservação de capital</li>
+            <li>Exposição adaptativa</li>
+            <li>Menor dependência de permanecer comprado</li>
+          </ul>
+          <div class="meter"><div class="meter-label"><span>Risco</span><span>Baixo</span></div><div class="meter-track"><div class="meter-fill" style="width:28%"></div></div></div>
+          <div class="meter"><div class="meter-label"><span>Retorno potencial</span><span>Moderado</span></div><div class="meter-track"><div class="meter-fill" style="width:42%"></div></div></div>
+          <div class="meter"><div class="meter-label"><span>Rotação ativa</span><span>Seletiva</span></div><div class="meter-track"><div class="meter-fill" style="width:34%"></div></div></div>
+        </div>
+      </div>
+      <p class="text-body mt-4">Preservar capital também é uma estratégia. O objetivo não é eliminar volatilidade — é impedir que ela determine o destino do patrimônio. <a href="estrategias.html" class="link-inline">Ver as duas estratégias em detalhe</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Não operamos por palpite.</h2>
+        <p class="lede mt-3">A pesquisa combina múltiplas camadas de informação — macro, liquidez, fluxos de ETFs, derivativos, funding, liquidações, estrutura de mercado e sinais quantitativos — antes de qualquer decisão de alocação.</p>
+      </div>
+      <div class="pipeline">
+        <div class="pipeline-step"><span class="small-caps">01 Macro</span></div>
+        <div class="pipeline-step"><span class="small-caps">02 Liquidez</span></div>
+        <div class="pipeline-step"><span class="small-caps">03 Fluxo</span></div>
+        <div class="pipeline-step"><span class="small-caps">04 Regime</span></div>
+        <div class="pipeline-step"><span class="small-caps">05 Risco</span></div>
+        <div class="pipeline-step"><span class="small-caps">06 Execução</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="statement-band section-dark">
+    <div class="container"><p class="statement">Nossa vantagem não está em prever cada movimento. Está em estruturar decisões melhores quando o mercado muda.</p></div>
+  </section>
+
+  <section class="section section-bone">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Por trás de cada decisão existe uma arquitetura de pesquisa.</h2>
+        <p class="lede mt-3">Modelos quantitativos, análise de regime, fluxo institucional, indicadores de liquidez e derivativos alimentam o processo. Mostramos a arquitetura da pesquisa — não o algoritmo por trás dela.</p>
+      </div>
+      <div class="ledger-cols">
+        <div><h4 class="display-quiet mb-2">Research framework</h4><p class="text-body">Camadas de contexto macro, on-chain e de fluxo, revisadas continuamente.</p></div>
+        <div><h4 class="display-quiet mb-2">Quantitative signals</h4><p class="text-body">Z-scores, correlação macro, análise multi-timeframe e testes estatísticos.</p></div>
+        <div><h4 class="display-quiet mb-2">Risk engine</h4><p class="text-body">Estrutura de mercado, volatilidade e liquidez traduzidas em limites de exposição.</p></div>
+      </div>
+      <p class="text-body mt-4"><a href="research.html" class="link-inline">Conhecer o research da Fork</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Primeiro, sobreviver.</h2>
+        <p class="lede mt-3">Em ativos digitais, ganhar muito em um ciclo e devolver tudo no seguinte não é gestão patrimonial. Gestão significa pensar primeiro em quanto podemos perder, antes de perguntar quanto podemos ganhar.</p>
+      </div>
+      <div class="waterfall">
+        <div class="waterfall-step"><span class="waterfall-index">01</span><div><strong>Capital</strong><p class="text-body">Ponto de partida da gestão.</p></div></div>
+        <div class="waterfall-step"><span class="waterfall-index">02</span><div><strong>Risco máximo</strong><p class="text-body">Quanto o mandato tolera perder.</p></div></div>
+        <div class="waterfall-step"><span class="waterfall-index">03</span><div><strong>Exposição</strong><p class="text-body">Quanto capital fica sujeito ao mercado.</p></div></div>
+        <div class="waterfall-step"><span class="waterfall-index">04</span><div><strong>Alocação</strong><p class="text-body">Como a exposição se distribui.</p></div></div>
+        <div class="waterfall-step"><span class="waterfall-index">05</span><div><strong>Execução</strong><p class="text-body">Como a estratégia é implementada.</p></div></div>
+        <div class="waterfall-step"><span class="waterfall-index">06</span><div><strong>Monitoramento</strong><p class="text-body">Acompanhamento contínuo do regime.</p></div></div>
+        <div class="waterfall-step"><span class="waterfall-index">07</span><div><strong>Rebalanceamento</strong><p class="text-body">Ajuste da exposição quando necessário.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="statement-band section-dark">
+    <div class="container"><p class="statement">O retorno é consequência. O risco vem primeiro.</p></div>
+  </section>
+
+  <section class="section section-bone">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">O pior momento para decidir é no extremo da emoção.</h2>
+        <p class="lede mt-3">O investidor comum frequentemente compra quando a narrativa já está forte e vende quando a dor ficou insuportável. A Fork existe para substituir decisão emocional por processo.</p>
+      </div>
+      <svg viewBox="0 0 1000 260" class="mt-4" aria-hidden="true">
+        <path class="cycle-wave" d="M40,160 L193,220 L346,150 L500,40 L653,55 L806,90 L960,210"/>
+        <circle class="cycle-dot" cx="40" cy="160" r="4"/>
+        <circle class="cycle-dot is-signal" cx="193" cy="220" r="5"/>
+        <circle class="cycle-dot" cx="346" cy="150" r="4"/>
+        <circle class="cycle-dot is-signal" cx="500" cy="40" r="5"/>
+        <circle class="cycle-dot" cx="653" cy="55" r="4"/>
+        <circle class="cycle-dot" cx="806" cy="90" r="4"/>
+        <circle class="cycle-dot" cx="960" cy="210" r="4"/>
+      </svg>
+      <div class="pipeline mt-3">
+        <div class="pipeline-step"><span class="small-caps">Medo</span></div>
+        <div class="pipeline-step"><span class="small-caps">Capitulação</span></div>
+        <div class="pipeline-step"><span class="small-caps">Recuperação</span></div>
+        <div class="pipeline-step"><span class="small-caps">Euforia</span></div>
+        <div class="pipeline-step"><span class="small-caps">FOMO</span></div>
+        <div class="pipeline-step"><span class="small-caps">Excesso de risco</span></div>
+        <div class="pipeline-step"><span class="small-caps">Reversão</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="statement-band">
+    <div class="container"><p class="statement">Você não precisa acertar todos os movimentos. Precisa evitar os que destroem capital.</p></div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Alinhamento de interesses.</h2>
+        <p class="lede mt-3">A Fork ganha mais quando o Membro sob Gestão ganha. A performance é calculada sobre o lucro acima da última Marca d'Água — nunca sobre prejuízo ou sobre a recuperação de perdas anteriores.</p>
+      </div>
+      <div class="strategy-split split-bordered mt-4">
+        <div class="strategy-panel">
+          <p class="small-caps mb-2">Para o Membro sob Gestão</p>
+          <p class="display-quiet h-md">70%</p>
+          <p class="text-body mt-2">Do lucro acima da Marca d'Água anterior.</p>
+        </div>
+        <div class="strategy-panel is-dark">
+          <p class="small-caps mb-2">Para a Fork Capital</p>
+          <p class="display-quiet h-md">30%</p>
+          <p class="text-body mt-2">Sobre a performance, mais taxa de administração.</p>
+        </div>
+      </div>
+      <div class="pipeline mt-4">
+        <div class="pipeline-step"><span class="small-caps">Novo topo patrimonial</span></div>
+        <div class="pipeline-step"><span class="small-caps">Performance positiva</span></div>
+        <div class="pipeline-step"><span class="small-caps">Participação sobre o ganho</span></div>
+        <div class="pipeline-step"><span class="small-caps">Marca d'água preservada</span></div>
+      </div>
+      <p class="text-body mt-4">Sem cobrança de performance sobre a recuperação de perdas anteriores. A taxa de administração e as condições comerciais completas são detalhadas na proposta individual, após a etapa de qualificação.</p>
+    </div>
+  </section>
+
+  <section class="section section-bone">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Fork Capital comparada a um fundo tradicional.</h2>
+        <p class="lede mt-3">Modelos de fundos variam bastante entre si; a tabela descreve características comumente observadas em estruturas tradicionais, não uma regra universal.</p>
+      </div>
+      <div class="table-wrap">
+        <table class="compare-table">
+          <thead><tr><th>Característica</th><th>Fundo tradicional</th><th>Fork Capital</th></tr></thead>
+          <tbody>
+            <tr><td>Custódia</td><td>Estrutura do fundo / custodiante</td><td>Conta do investidor</td></tr>
+            <tr><td>Acesso</td><td>Estrutura de subscrição</td><td>Integração com exchange</td></tr>
+            <tr><td>Capital mínimo</td><td>Frequentemente elevado</td><td>Estrutura mais acessível</td></tr>
+            <tr><td>Lock-up</td><td>Pode existir</td><td>Depende da estrutura operacional</td></tr>
+            <tr><td>Estratégia</td><td>Regras do fundo</td><td>Adaptativa ao regime de mercado</td></tr>
+            <tr><td>Gestão de risco</td><td>Variável por produto</td><td>Elemento central do processo</td></tr>
+            <tr><td>Transparência</td><td>Relatórios do fundo</td><td>Conta própria + acompanhamento</td></tr>
+            <tr><td>Controle do patrimônio</td><td>Indireto</td><td>Investidor mantém o controle</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="manifesto">
+    <div class="container manifesto-inner">
+      <p>Durante décadas, gestão profissional foi construída ao redor de uma ideia: entregue seu dinheiro, entre na estrutura, aceite as regras, espere os relatórios.</p>
+      <p class="display-shout">A Fork começa de outro lugar.</p>
+      <p>Você mantém o patrimônio. Nós trazemos a gestão.</p>
+      <p class="display-shout">Sua conta. Seu capital. Nossa estratégia.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Como começar.</h2>
+        <p class="lede mt-3">Um processo de qualificação, não uma compra por impulso.</p>
+      </div>
+      <div class="process-row">
+        <div class="process-step"><span class="process-index">01</span><h4 class="display-quiet mb-2">Perfil</h4><p class="text-body">Objetivo, horizonte e tolerância a risco.</p></div>
+        <div class="process-step"><span class="process-index">02</span><h4 class="display-quiet mb-2">Conexão</h4><p class="text-body">Integração com a exchange suportada pelo investidor.</p></div>
+        <div class="process-step"><span class="process-index">03</span><h4 class="display-quiet mb-2">Estratégia</h4><p class="text-body">Definição da arquitetura de gestão adequada ao perfil.</p></div>
+        <div class="process-step"><span class="process-index">04</span><h4 class="display-quiet mb-2">Gestão</h4><p class="text-body">Monitoramento, execução, rotação e gestão de risco.</p></div>
+      </div>
+      <div class="text-center mt-5"><a href="solicitar-acesso.html" class="btn btn-primary">Quero conhecer a Fork Capital</a></div>
+    </div>
+  </section>
+
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">O primeiro princípio da gestão é não perder o controle do capital.</h2>
+      </div>
+      <div class="check-list check-list-2col mt-4">
+        <div class="check-item"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5l3.5 3.5 7.5-9"/></svg><div><strong>Custódia e chaves permanecem com o investidor</strong></div></div>
+        <div class="check-item"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5l3.5 3.5 7.5-9"/></svg><div><strong>API usada para execução da estratégia autorizada</strong></div></div>
+        <div class="check-item"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5l3.5 3.5 7.5-9"/></svg><div><strong>Sem permissão de saque, quando essa configuração está disponível na exchange</strong></div></div>
+        <div class="check-item"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 8.5l3.5 3.5 7.5-9"/></svg><div><strong>Revogação do acesso pelo investidor a qualquer momento</strong></div></div>
+      </div>
+      <p class="text-body mt-4"><a href="seguranca.html" class="link-inline">Ver segurança em detalhe</a></p>
+    </div>
+  </section>
+
+  <section class="section section-bone">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="display-quiet h-lg">Ter capital é diferente de saber geri-lo.</h2>
+        <p class="lede mt-3">A Fork foi pensada para profissionais, empresários, investidores e pequenas family offices com patrimônio em ativos digitais — pessoas que reconhecem que estratégia profissional exige processo, e que não querem entregar a custódia do que construíram.</p>
+      </div>
+      <p class="text-body">Como referência inicial, a maior parte dos Membros sob Gestão está na faixa de R$ 100 mil a R$ 5 milhões em patrimônio digital — uma orientação, não um critério rígido de elegibilidade.</p>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="container">
+      <p class="display-shout">Seu capital. Sua custódia.<br>Nossa estratégia.</p>
+      <a href="solicitar-acesso.html" class="btn btn-primary">Solicitar acesso à Fork Capital</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-top">
+    <div class="footer-brand">
+      <a href="index.html" class="logo"><span class="logo-fork">FORK</span><span class="logo-capital">CAPITAL</span></a>
+      <p>Infraestrutura de gestão de ativos digitais. Sua custódia, nossa estratégia.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="como-funciona.html">Como funciona</a></li>
+        <li><a href="estrategias.html">Estratégias</a></li>
+        <li><a href="gestao-de-risco.html">Gestão de risco</a></li>
+        <li><a href="research.html">Research</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Institucional</h4>
+      <ul>
+        <li><a href="sobre.html">Sobre a Fork</a></li>
+        <li><a href="seguranca.html">Segurança</a></li>
+        <li><a href="faq.html">Perguntas frequentes</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="legal.html#termos">Termos de uso</a></li>
+        <li><a href="legal.html#privacidade">Política de privacidade</a></li>
+        <li><a href="legal.html#risco">Política de risco</a></li>
+        <li><a href="legal.html#avisos">Avisos legais</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="mailto:contato@forkcapital.com">contato@forkcapital.com</a></li>
+        <li><a href="solicitar-acesso.html">Solicitar acesso</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-risk container">
+    <p><strong>Aviso de risco.</strong> Ativos digitais apresentam alta volatilidade e podem resultar em perda parcial ou total do capital investido. A gestão profissional não elimina risco, não garante retorno, e resultados passados não garantem resultados futuros. A estrutura, a oferta, a elegibilidade e o enquadramento regulatório devem ser analisados conforme a jurisdição aplicável ao investidor.</p>
+  </div>
+  <div class="footer-bottom container">
+    <p>© <span class="js-year"></span> Fork Capital. Todos os direitos reservados.</p>
+    <p>Gestão sem custódia.</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
